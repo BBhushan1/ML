@@ -1,0 +1,12 @@
+curl -X POST "http://127.0.0.1:8080/ask" -H "Content-Type: application/json" -d '{"question": "What is the average price of a hotel booking in July 2017?"}'
+
+curl -X POST "http://127.0.0.1:8080/ask" -H "Content-Type: application/json" -d "{\"question\": \"Which locations had the highest booking cancellations?\"}"
+
+curl -X POST "http://127.0.0.1:8080/ask" -H "Content-Type: application/json" -d "{\"question\": \"What is the busiest month for bookings?\", \"k\": 5}"
+
+curl -X POST "http://127.0.0.1:8080/ask" -H "Content-Type: application/json" -d "{\"question\": \"What is the total number of canceled bookings?\", \"k\": 5}"
+
+curl -X POST "http://127.0.0.1:8080/analytics" -H "Content-Type: application/json" -d "{\"analysis_type\": \"revenue_trends\"}"
+
+curl -X POST "http://127.0.0.1:8080/analytics" -H "Content-Type: application/json" -d "{\"analysis_type\": \"cancellation_analysis\"}"
+

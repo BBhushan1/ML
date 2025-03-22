@@ -1,0 +1,59 @@
+[
+  {
+    "endpoint": "ask",
+    "question": "What is the average price of a hotel booking in July 2017?",
+    "answer": "The average daily rate for 2017-07 is approximately 130.5.",
+    "timestamp": "2025-03-22T14:30:15.123456"
+  },
+  {
+    "endpoint": "ask",
+    "question": "Which locations had the highest booking cancellations?",
+    "answer": "PRT had the highest booking cancellations.",
+    "timestamp": "2025-03-22T14:32:45.789012"
+  },
+  {
+    "endpoint": "ask",
+    "question": "What is the busiest month for bookings?",
+    "answer": "Based on the data, August 2016 appears to be the busiest month with approximately 5,000 bookings.",
+    "timestamp": "2025-03-22T14:35:10.456789"
+  },
+  {
+    "endpoint": "ask",
+    "question": "What is the total number of canceled bookings?",
+    "answer": "The total number of canceled bookings is approximately 44,224 based on the dataset summary.",
+    "timestamp": "2025-03-22T14:37:25.654321"
+  },
+  {
+    "endpoint": "analytics",
+    "analysis_type": "revenue_trends",
+    "results": {
+      "monthly_revenue": [
+        {"year_month": "2015-07-01", "total_revenue": 30000.50},
+        {"year_month": "2015-08-01", "total_revenue": 45000.75},
+        {"year_month": "2015-09-01", "total_revenue": 38000.20}
+      ],
+      "hotel_revenue": [
+        {"year_month": "2015-07-01", "City Hotel": 20000.30, "Resort Hotel": 10000.20},
+        {"year_month": "2015-08-01", "City Hotel": 30000.50, "Resort Hotel": 15000.25}
+      ]
+    },
+    "timestamp": "2025-03-22T14:39:50.987654"
+  },
+  {
+    "endpoint": "analytics",
+    "analysis_type": "cancellation_analysis",
+    "results": {
+      "overall_cancellation_rate": 37.04,
+      "monthly_cancellation": [
+        {"year_month": "2015-07-01", "total_bookings": 1000, "cancelled_bookings": 350, "cancellation_rate": 35.0},
+        {"year_month": "2015-08-01", "total_bookings": 1200, "cancelled_bookings": 480, "cancellation_rate": 40.0}
+      ],
+      "hotel_cancellation": [
+        {"hotel": "City Hotel", "total_bookings": 79330, "cancelled_bookings": 33102, "cancellation_rate": 41.73},
+        {"hotel": "Resort Hotel", "total_bookings": 40060, "cancelled_bookings": 11122, "cancellation_rate": 27.76}
+      ]
+    },
+    "timestamp": "2025-03-22T14:42:15.321098"
+  
+  }
+]
