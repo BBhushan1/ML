@@ -23,7 +23,7 @@ Built for flexibility and scalability, it processes the `hotel_bookings.csv` dat
 ## Usage
 
 1. **Clone the Repository:**
-   git clone https://github.com/yourusername/hotel-booking-analytics.git
+   git clone https://github.com/BBhushan1/ML
    cd hotel-booking-analytics
 
 2. **Run Api**
